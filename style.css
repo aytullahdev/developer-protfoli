@@ -82,3 +82,10 @@ footer p{
     text-align: center;
     text-transform: uppercase;
 }
+.my_img{
+    height: 300px;
+    width: 300px;
+    background-image: url(./images/my-bg.png);
+    background-size: cover;
+   
+}
