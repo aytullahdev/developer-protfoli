@@ -44,3 +44,41 @@ h1{
     background-position: right;
 
 }
+.card{
+ box-shadow: 0 0 20px black;
+ width: 40%;
+ margin-left: 5%;
+ margin-right: 5%;
+ padding-left: 50px;
+ height:250px;
+ 
+ 
+}
+#fullstackcard{
+    border-left: 7px solid;
+    border-image: linear-gradient(hsl(6, 84%, 64%),tomato);
+    border-image-slice:1 ;
+}
+#babyitem{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+
+}
+.card h3{
+   color: orange;
+}
+.card p{
+    font-size: 18px;
+    text-align: justify;
+}
+#exp-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 100px;
+}
+footer p{
+    text-align: center;
+    text-transform: uppercase;
+}
